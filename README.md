@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is an example of how to debug common C/C++ bugs, such as logic errors, segmentation faults, and memory leaks, using CMake, [GDB](https://www.gnu.org/software/gdb/) and [Valgrind](https://valgrind.org/) in Docker container. A more detailed [tutorial](https://leimao.github.io/blog/Debug-CPP-In-Docker-Container/) could be found on my [website](https://leimao.github.io/).
+These are examples of how to debug common C/C++ bugs, such as logic errors, segmentation faults, and memory leaks, using CMake, [GDB](https://www.gnu.org/software/gdb/) and [Valgrind](https://valgrind.org/) in Docker container. A more comprehensive [tutorial](https://leimao.github.io/blog/Debug-CPP-In-Docker-Container/) could be found on my [website](https://leimao.github.io/).
 
 
 ## Docker
