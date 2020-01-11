@@ -7,13 +7,13 @@ This is an example of how to debug common C/C++ bugs, such as logic errors, segm
 
 ## Docker
 
-#### Create Docker Image
+### Create Docker Image
 
 ```bash
 $ docker build -f cpp.Dockerfile -t cpp-debug:0.0.1 .
 ```
 
-#### Start Docker Container
+### Start Docker Container
 
 ```bash
 $ docker run -it --rm --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v $(pwd):/mnt cpp-debug:0.0.1
@@ -21,6 +21,7 @@ $ docker run -it --rm --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -v 
 
 ## Examples
 
+### Build Examples
 
 ```bash
 $ mkdir build
@@ -28,6 +29,12 @@ $ cd build
 $ cmake ..
 $ make
 ```
+
+### Example Files
+
+* [Logical Error](logicalError.cpp)
+* [Core Dumped](coreDumped.cpp)
+* [Memory Leak](memoryLeak.cpp)
 
 ## References
 
