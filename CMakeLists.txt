@@ -16,4 +16,6 @@ add_library(header header.cpp)
 add_executable(logicalError logicalError.cpp)
 target_link_libraries(logicalError PRIVATE header)
 
-add_executable(coreDump coreDump.cpp)
+add_executable(coreDumped coreDumped.cpp)
+
+add_executable(memoryLeak memoryLeak.cpp)
