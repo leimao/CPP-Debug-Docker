@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/leimao/GitHub/CPP_Debug_Docker/header.cpp
+header.h
+/home/leimao/GitHub/CPP_Debug_Docker/header.h
+
+/home/leimao/GitHub/CPP_Debug_Docker/header.h
+
