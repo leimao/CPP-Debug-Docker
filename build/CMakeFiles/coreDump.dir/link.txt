@@ -1,1 +1,0 @@
-/usr/bin/c++  -O2 -g -DNDEBUG   CMakeFiles/coreDump.dir/coreDump.cpp.o  -o coreDump 
